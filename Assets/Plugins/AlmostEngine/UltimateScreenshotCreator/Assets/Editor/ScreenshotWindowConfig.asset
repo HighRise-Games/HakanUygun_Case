@@ -1,0 +1,493 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a82de9ba8c39d348b992d89c89c02dc, type: 3}
+  m_Name: ScreenshotWindowConfig
+  m_EditorClassIdentifier: 
+  m_Config:
+    m_DestinationFolder: 0
+    m_RelativePath: Screenshots/
+    m_RootedPath: C:/Users/Harun/Desktop
+    m_ExportToPhoneGallery: 0
+    m_ExportAsync: 0
+    m_FileName: '{productName}-{hour}_{minute}_{second}-{name}-{width}x{height}'
+    m_OverwriteFiles: 1
+    m_NumberLeftPadding: 0
+    m_FileFormat: 0
+    m_JPGQuality: 75
+    m_ShareTitle: Share the screenshot
+    m_ShareSubject: Nice screenshot
+    m_ShareText: Look at this nice screenshot.
+    m_CaptureMode: 0
+    m_MultisamplingAntiAliasing: 8
+    m_ColorFormat: 0
+    m_RecomputeAlphaLayer: 0
+    m_ShotMode: 0
+    m_MaxBurstShotsNumber: 20
+    m_MaxShotPerSeconds: 30
+    m_FixedFrameRate: 1
+    m_CameraMode: 0
+    m_ExportToDifferentLayers: 0
+    m_Cameras: []
+    m_ResolutionCaptureMode: 1
+    m_Resolutions:
+    - m_Active: 0
+      m_Width: 2048
+      m_Height: 1536
+      m_Scale: 1
+      m_Orientation: 2
+      m_ResolutionName: iPad 9.7 inch - iPad, iPad Mini
+      m_Category: StoreScreenshots/AppStore
+      m_Platform: iOS
+      m_PPI: 264
+      m_ForcedUnityPPI: 0
+      m_DeviceCanvas: {fileID: 0}
+      m_Ratio: 4:3
+      m_FileName: /Users/harunuysal/Documents/Creative/Screenshoots/Template-15_32_48-iPad
+        9.7 inch - iPad, iPad Mini-2048x1536.png
+      m_IgnoreOrientation: 0
+      m_DisableSafeArea: 0
+      m_SafeAreaPortrait:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_SafeAreaLandscapeLeft:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+    - m_Active: 0
+      m_Width: 2224
+      m_Height: 1668
+      m_Scale: 1
+      m_Orientation: 2
+      m_ResolutionName: iPad 10.5 inch - iPad, Pro, Air
+      m_Category: StoreScreenshots/AppStore
+      m_Platform: iOS
+      m_PPI: 265
+      m_ForcedUnityPPI: 0
+      m_DeviceCanvas: {fileID: 0}
+      m_Ratio: 4:3
+      m_FileName: /Users/harunuysal/Documents/Creative/Screenshoots/Template-15_32_48-iPad
+        10.5 inch - iPad, Pro, Air-2224x1668.png
+      m_IgnoreOrientation: 0
+      m_DisableSafeArea: 0
+      m_SafeAreaPortrait:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_SafeAreaLandscapeLeft:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+    - m_Active: 0
+      m_Width: 2388
+      m_Height: 1668
+      m_Scale: 1
+      m_Orientation: 2
+      m_ResolutionName: iPad 11 inch - iPad Pro
+      m_Category: StoreScreenshots/AppStore
+      m_Platform: iOS
+      m_PPI: 264
+      m_ForcedUnityPPI: 0
+      m_DeviceCanvas: {fileID: 0}
+      m_Ratio: 10:7~
+      m_FileName: /Users/harunuysal/Documents/Creative/Screenshoots/Template-15_32_48-iPad
+        11 inch - iPad Pro-2388x1668.png
+      m_IgnoreOrientation: 0
+      m_DisableSafeArea: 0
+      m_SafeAreaPortrait:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_SafeAreaLandscapeLeft:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+    - m_Active: 1
+      m_Width: 2732
+      m_Height: 2048
+      m_Scale: 1
+      m_Orientation: 2
+      m_ResolutionName: iPad 12.9 inch - 2nd Generation Pro
+      m_Category: StoreScreenshots/AppStore
+      m_Platform: iOS
+      m_PPI: 265
+      m_ForcedUnityPPI: 0
+      m_DeviceCanvas: {fileID: 0}
+      m_Ratio: 12:9~
+      m_FileName: /Users/harunuysal/Documents/Creative/Screenshoots/Template-15_32_48-iPad
+        12.9 inch - 2nd Generation Pro-2732x2048.png
+      m_IgnoreOrientation: 0
+      m_DisableSafeArea: 0
+      m_SafeAreaPortrait:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_SafeAreaLandscapeLeft:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+    - m_Active: 0
+      m_Width: 960
+      m_Height: 640
+      m_Scale: 1
+      m_Orientation: 2
+      m_ResolutionName: iPhone 3.5 inch - 4S
+      m_Category: StoreScreenshots/AppStore
+      m_Platform: iOS
+      m_PPI: 330
+      m_ForcedUnityPPI: 0
+      m_DeviceCanvas: {fileID: 0}
+      m_Ratio: 3:2
+      m_FileName: /Users/harunuysal/Documents/Creative/Screenshoots/Template-15_32_48-iPhone
+        3.5 inch - 4S-960x640.png
+      m_IgnoreOrientation: 0
+      m_DisableSafeArea: 0
+      m_SafeAreaPortrait:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_SafeAreaLandscapeLeft:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+    - m_Active: 0
+      m_Width: 1136
+      m_Height: 640
+      m_Scale: 1
+      m_Orientation: 2
+      m_ResolutionName: iPhone 4 inch - SE
+      m_Category: StoreScreenshots/AppStore
+      m_Platform: iOS
+      m_PPI: 326
+      m_ForcedUnityPPI: 0
+      m_DeviceCanvas: {fileID: 0}
+      m_Ratio: 16:9~
+      m_FileName: /Users/harunuysal/Documents/Creative/Screenshoots/Template-15_32_48-iPhone
+        4 inch - SE-1136x640.png
+      m_IgnoreOrientation: 0
+      m_DisableSafeArea: 0
+      m_SafeAreaPortrait:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_SafeAreaLandscapeLeft:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+    - m_Active: 0
+      m_Width: 1334
+      m_Height: 750
+      m_Scale: 1
+      m_Orientation: 2
+      m_ResolutionName: iPhone 4.7 inch - 6, 6S, 7, 8
+      m_Category: StoreScreenshots/AppStore
+      m_Platform: iOS
+      m_PPI: 326
+      m_ForcedUnityPPI: 0
+      m_DeviceCanvas: {fileID: 0}
+      m_Ratio: 16:9~
+      m_FileName: /Users/harunuysal/Documents/Creative/Screenshoots/Template-15_32_48-iPhone
+        4.7 inch - 6, 6S, 7, 8-1334x750.png
+      m_IgnoreOrientation: 0
+      m_DisableSafeArea: 0
+      m_SafeAreaPortrait:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_SafeAreaLandscapeLeft:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+    - m_Active: 1
+      m_Width: 2208
+      m_Height: 1242
+      m_Scale: 1
+      m_Orientation: 2
+      m_ResolutionName: iPhone 5.5 inch - 6S Plus, 7 Plus, 8 Plus
+      m_Category: StoreScreenshots/AppStore
+      m_Platform: iOS
+      m_PPI: 401
+      m_ForcedUnityPPI: 0
+      m_DeviceCanvas: {fileID: 0}
+      m_Ratio: 16:9
+      m_FileName: /Users/harunuysal/Documents/Creative/Screenshoots/Template-15_32_48-iPhone
+        5.5 inch - 6S Plus, 7 Plus, 8 Plus-2208x1242.png
+      m_IgnoreOrientation: 0
+      m_DisableSafeArea: 0
+      m_SafeAreaPortrait:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_SafeAreaLandscapeLeft:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+    - m_Active: 1
+      m_Width: 2688
+      m_Height: 1242
+      m_Scale: 1
+      m_Orientation: 2
+      m_ResolutionName: iPhone 6.5 inch - 11 Pro Max, 11, XS Max, XR
+      m_Category: StoreScreenshots/AppStore
+      m_Platform: iOS
+      m_PPI: 458
+      m_ForcedUnityPPI: 0
+      m_DeviceCanvas: {fileID: 0}
+      m_Ratio: 2:1~
+      m_FileName: /Users/harunuysal/Documents/Creative/Screenshoots/Template-15_32_48-iPhone
+        6.5 inch - 11 Pro Max, 11, XS Max, XR-2688x1242.png
+      m_IgnoreOrientation: 0
+      m_DisableSafeArea: 0
+      m_SafeAreaPortrait:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_SafeAreaLandscapeLeft:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+    - m_Active: 0
+      m_Width: 2436
+      m_Height: 1125
+      m_Scale: 1
+      m_Orientation: 2
+      m_ResolutionName: iPhone 5.8 inch -  11 Pro, X, XS
+      m_Category: StoreScreenshots/AppStore
+      m_Platform: iOS
+      m_PPI: 458
+      m_ForcedUnityPPI: 0
+      m_DeviceCanvas: {fileID: 0}
+      m_Ratio: 2:1~
+      m_FileName: /Users/harunuysal/Documents/Creative/Screenshoots/Template-15_32_48-iPhone
+        5.8 inch -  11 Pro, X, XS-2436x1125.png
+      m_IgnoreOrientation: 0
+      m_DisableSafeArea: 0
+      m_SafeAreaPortrait:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_SafeAreaLandscapeLeft:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+    - m_Active: 1
+      m_Width: 1920
+      m_Height: 1080
+      m_Scale: 1
+      m_Orientation: 2
+      m_ResolutionName: Android Phones (Pixel2 - Full HD)
+      m_Category: StoreScreenshots/PlayStore
+      m_Platform: Android
+      m_PPI: 441
+      m_ForcedUnityPPI: 0
+      m_DeviceCanvas: {fileID: 0}
+      m_Ratio: 16:9
+      m_FileName: /Users/harunuysal/Documents/Creative/Screenshoots/Template-15_32_48-Android
+        Phones (Pixel2 - Full HD)-1920x1080.png
+      m_IgnoreOrientation: 0
+      m_DisableSafeArea: 0
+      m_SafeAreaPortrait:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_SafeAreaLandscapeLeft:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+    - m_Active: 0
+      m_Width: 1920
+      m_Height: 1200
+      m_Scale: 1
+      m_Orientation: 2
+      m_ResolutionName: Android Tablet 7 Inch (Nexus 7)
+      m_Category: StoreScreenshots/PlayStore
+      m_Platform: Android
+      m_PPI: 323
+      m_ForcedUnityPPI: 0
+      m_DeviceCanvas: {fileID: 0}
+      m_Ratio: 16:10
+      m_FileName: /Users/harunuysal/Documents/Creative/Screenshoots/Template-15_32_48-Android
+        Tablet 7 Inch (Nexus 7)-1920x1200.png
+      m_IgnoreOrientation: 0
+      m_DisableSafeArea: 0
+      m_SafeAreaPortrait:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_SafeAreaLandscapeLeft:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+    - m_Active: 0
+      m_Width: 2560
+      m_Height: 1600
+      m_Scale: 1
+      m_Orientation: 2
+      m_ResolutionName: Android Tablet 9 Inch (Nexus 10)
+      m_Category: StoreScreenshots/PlayStore
+      m_Platform: Android
+      m_PPI: 299
+      m_ForcedUnityPPI: 0
+      m_DeviceCanvas: {fileID: 0}
+      m_Ratio: 16:10
+      m_FileName: /Users/harunuysal/Documents/Creative/Screenshoots/Template-15_32_48-Android
+        Tablet 9 Inch (Nexus 10)-2560x1600.png
+      m_IgnoreOrientation: 0
+      m_DisableSafeArea: 0
+      m_SafeAreaPortrait:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_SafeAreaLandscapeLeft:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+    m_GameViewResolution:
+      m_Active: 1
+      m_Width: 1080
+      m_Height: 2160
+      m_Scale: 1
+      m_Orientation: 0
+      m_ResolutionName: GameView
+      m_Category: Custom
+      m_Platform: 
+      m_PPI: 0
+      m_ForcedUnityPPI: 0
+      m_DeviceCanvas: {fileID: 0}
+      m_Ratio: 
+      m_FileName: C:\Users\iron\Pictures/Screenshots/983x723-screenshot.png
+      m_IgnoreOrientation: 0
+      m_DisableSafeArea: 0
+      m_SafeAreaPortrait:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      m_SafeAreaLandscapeLeft:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+    m_CaptureActiveUICanvas: 1
+    m_ForceUICullingLayer: 0
+    m_Overlays:
+    - m_Canvas: {fileID: 22330254, guid: ccf7f3143fc162648be669d6ddbb9a87, type: 3}
+      m_Active: 0
+    m_CompositionMode: 0
+    m_Compositions: []
+    m_BatchMode: 0
+    m_Batches: []
+    m_ShowGuidesInPreview: 0
+    m_GuideCanvas: {fileID: 22302868, guid: 9bcbdb2fe5275ec42ac08384c4ed38f3, type: 3}
+    m_GuidesColor: {r: 1, g: 1, b: 1, a: 1}
+    m_ShowPreview: 0
+    m_PreviewSize: 1
+    m_PreviewInGameViewWhilePlaying: 0
+    m_DontDestroyOnLoad: 1
+    m_StopTimeOnCapture: 1
+    m_PlaySoundOnCapture: 1
+    m_ShotSound: {fileID: 8300000, guid: 8395331d4bc4a4f4190622709cdef091, type: 3}
+    m_CaptureHotkey:
+      m_Shift: 1
+      m_Control: 0
+      m_Alt: 0
+      m_Key: 115
+    m_UpdatePreviewHotkey:
+      m_Shift: 0
+      m_Control: 0
+      m_Alt: 0
+      m_Key: 286
+    m_AlignHotkey:
+      m_Shift: 0
+      m_Control: 0
+      m_Alt: 0
+      m_Key: 292
+    m_PauseHotkey:
+      m_Shift: 0
+      m_Control: 0
+      m_Alt: 0
+      m_Key: 0
+    m_GameViewResizingWaitingMode: 0
+    m_ResizingWaitingTime: 1
+    m_ResizingWaitingFrames: 2
+    m_ItemsPerPage: 50
+    m_ShowDestination: 1
+    m_ShowName: 1
+    m_ShowCaptureMode: 1
+    m_ShowResolutions: 1
+    m_ShowCameras: 1
+    m_ShowCanvas: 1
+    m_ShowComposition: 1
+    m_ShowBatches: 1
+    m_ShowPreviewGUI: 1
+    m_ShowCapture: 1
+    m_ShowHotkeys: 1
+    m_ShowGallery: 1
+    m_ShowUtils: 1
+    m_ShowUsage: 1
+    m_ShowInstall: 1
+    m_ShowDelay: 1
+    m_ShowShare: 1
